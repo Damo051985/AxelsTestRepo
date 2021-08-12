@@ -1,0 +1,50 @@
+Type	No.	Name	New Object	New Object Changed	Existing Object Changed	Warning	Action	Existing Object Modified	Existing Object Version List	New Object Modified	New Object Version List
+Table	17	G/L Entry	No	Yes	Yes	1	Replace	Yes	NAVW111.00,NAVPH11.00,PAS17.1.0,PH.CA.1.00	Yes	NAVW111.00.00.26401,NAVPH11.00.00.23572,LPC-WMR,LPC-CA
+Table	81	Gen. Journal Line	No	Yes	Yes	1	Replace	Yes	NAVW111.00,NAVPH11.00,PH.CA.1.00	Yes	NAVW111.00.00.33812,NAVPH11.00.00.24232,LPC-CM,LPC-CA
+Table	91	User Setup	No	Yes	Yes	1	Replace	Yes	NAVW111.00.00.20783,PH.CA.1.00	Yes	NAVW111.00.00.23572,PH.CA.1.00,NTT,LPC-WMR,LPC-CA
+Table	1511	Notification Entry	No	Yes	Yes	1	Replace	Yes	NAVW111.00,PH.CA1.00	Yes	NAVW111.00.00.28629,PH.CA.1.00,NTT
+Table	5200	Employee	No	Yes	Yes	1	Replace	Yes	NAVW111.00,NAVPH11.00,PH.CA1.00	Yes	NAVW111.00.00.26893,NAVAPAC11.00.00.21836,PH.CA.1.00,NTT,LPC-CA
+Table	5222	Employee Ledger Entry	No	Yes	Yes	1	Replace	Yes	NAVW111.00,PH.CA1.00	Yes	NAVW111.00.00.24232,PH.CA.1.00,NTT
+Table	50010	Employee Expense Setup (CA)	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Table	50011	Emp. Expense Mapping	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Table	50012	Emp. Expense TIN	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Table	50013	Emp. Expense Header	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT,LPC-CA
+Table	50014	Emp. Expense Line	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Table	50015	Posted Emp. Expense Header	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Table	50016	Posted Emp. Expense Line	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Report	50013	BIR Books - Purchase Journal	No	Yes	Yes	1	Replace	Yes	NAVPH9.00,BIR	Yes	NAVPH9.00,LPC-BIR,LPC-CA,LPC-BIR
+Report	50034	Liquidation Form	No	Yes	Yes	1	Replace	Yes	PH.CA	Yes	PH.CA,NTT
+Report	50035	Reimbursement Form	No	Yes	Yes	1	Replace	Yes	PH.CA	Yes	PH.CA,NTT
+Codeunit	368	Format Document	No	Yes	No	0	Replace	No	NAVW111.00	Yes	NAVW111.00.00.24742,LPC-CA
+Codeunit	700	Page Management	No	Yes	Yes	1	Replace	Yes	NAVW111.00,PH.CA1.00	Yes	NAVW111.00.00.21836,PH.CA.1.00,NTT
+Codeunit	1521	Workflow Response Handling	No	Yes	Yes	1	Replace	Yes	NAVW111.00,PH.CA.1.00	Yes	NAVW111.00.00.21836,PH.CA.1.00,NTT,LPC-WMRb
+Codeunit	1535	Approvals Mgmt.	No	Yes	Yes	1	Replace	Yes	NAVW111.00,PH.CA.1.00	Yes	NAVW111.00.00.26893,PH.CA.1.00,NTT
+Codeunit	50004	EmpExpenseMgt	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT,LPC-CA
+Codeunit	50008	RS Workflow Handling	No	Yes	Yes	1	Replace	Yes	PH.CA	Yes	PH.CA,NTT
+Page	119	User Setup	No	Yes	Yes	1	Replace	Yes	NAVW111.00	Yes	NAVW111.00,LPC-WMR,LPC-CA
+Page	256	Payment Journal	No	Yes	Yes	1	Replace	Yes	NAVW111.00,NAVPH11.00,PH.CA.1.00	Yes	NAVW111.00.00.21836,NAVAPAC11.00.00.21836,PH.CA.1.00,NTT
+Page	658	Approval Entries	No	Yes	Yes	1	Replace	Yes	NAVW111.00,PH.CA.1.00	Yes	NAVW111.00.00.33015,PH.CA.1.00,NTT
+Page	5200	Employee Card	No	Yes	Yes	1	Replace	Yes	NAVW111.00,NAVPH11.00,PH.CA1.00	Yes	NAVW111.00.00.23572,NAVAPAC11.00.00.23572,PH.CA1.00,NTT,LPC-CA
+Page	50016	Employee Expense Setup	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50017	Emp. Expense Mapping	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50018	Emp. Expense Mapping Card	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50019	Emp. Expense TIN	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50020	Emp. Expense TIN Card	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50021	Reimbursements	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50022	Reimbursement Order	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50023	Reimbursement Subform	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT,JOPS.LG011
+Page	50024	Liquidations	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50025	Liquidation Order	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50026	Liquidation Subform	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT,LPC-CA
+Page	50027	Cash Advances	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50028	Cash Advance Order	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50029	Cash Advance Subform	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50030	Posted Reimbursements	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50031	Posted Reimbursement Order	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50032	Posted Reimbursement Subform	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT,LPC-CA
+Page	50033	Posted Liquidations	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50034	Posted Liquidation Order	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50035	Posted Liquidation Subform	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT,LPC-CA
+Page	50036	Posted Cash Advances	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50037	Posted Cash Advance Order	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
+Page	50038	Posted Cash Advance Subform	No	Yes	Yes	1	Replace	Yes	PH.CA.1.00	Yes	PH.CA.1.00,NTT
