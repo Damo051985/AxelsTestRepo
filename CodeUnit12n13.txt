@@ -63,6 +63,7 @@ OBJECT Codeunit 12 Gen. Jnl.-Post Line
       WHTManagement@1240002 : Codeunit 50000;
       DeferralUtilities@1031 : Codeunit 1720;
       DeferralDocType@1039 : 'Purchase,Sales,G/L';
+      gTextdan : Text //Damo
       LastDocType@1025 : ' ,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder';
       AddCurrencyCode@1117 : Code[10];
       GLSourceCode@1040 : Code[10];
